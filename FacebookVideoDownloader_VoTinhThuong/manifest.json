@@ -1,0 +1,11 @@
+{
+  "name": "Facebook Video Downloader",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Download any kind of videos in Facebook. This extension can from public to private or even closed videos in Faceook.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
